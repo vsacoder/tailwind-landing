@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-landing",
+  "version": "1.0.0",
+  "description": "A landing page with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/css/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "vsacoder",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
